@@ -1,0 +1,23 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color: #f07167
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: orange;
+}
+a:visited{
+    color: #f219bc;
+    
+}
+a:hover{
+    color: powderblue;
+    text-decoration: underline;
+}
+button:hover{
+    background-color: mediumorchid;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#333,#5ee6b3);
+}
+h1{
+    text-align: center;
+    margin: 10px
+}
+h2{
+    text-align: center;
+}
+form{
+    margin: auto;
+    width: 40%;
+}
+fieldset{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: aqua;
+}
+input{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.btn{
+    background-color: blueviolet;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: blue;
+}

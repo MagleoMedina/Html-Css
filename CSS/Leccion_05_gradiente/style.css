@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+    min-height: auto;
+}
+body{
+    /* background: linear-gradient(red , yellow);  */
+    /* background: linear-gradient(to right, red , yellow); */
+    /* background: linear-gradient(45deg, red , yellow); */
+    /* background: linear-gradient(black, white, black); */
+    /* background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet); */
+    background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+}
+h1{
+    color: white;
+    text-align: center;
+    /* text-shadow: 2px 2px 2px gray;  difuminado */
+    text-shadow: 2px 2px gray; /* sin difuminado */
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+
+}
+div.contenedor p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+div.contenedor img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+div.fle{
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+
+}
+div.fle p{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px;
+
+}

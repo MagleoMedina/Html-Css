@@ -1,0 +1,30 @@
+
+
+
+
+.super-boton {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 140px;
+    height: 45px;
+  
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(99, 8, 8, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .super-boton:hover {
+    background-color: #2e77e5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: #fff;
+    transform: translateY(-15px);
+  }

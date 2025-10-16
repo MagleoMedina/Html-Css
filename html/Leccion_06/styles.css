@@ -1,0 +1,36 @@
+body{
+    background-color: honeydew;
+    margin: none;
+    padding: none;
+    border: none;
+}
+h1{
+    margin: auto;
+    color: blueviolet;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+
+}
+.card{
+    width: 70%;
+    margin: 10px auto;
+    background-color: aqua;
+    border: 3px solid black;
+}
+div{
+    background-color: brown;
+    width: 70%;
+    border: 5px solid black;
+
+}
+.php{
+    text-align: left;
+}

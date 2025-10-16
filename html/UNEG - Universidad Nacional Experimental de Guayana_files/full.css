@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+._mx-auto {
+    margin: 0 auto;
+}
+
+.alignleft {
+    float: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div, ul, li, ol, p, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mwDivider {
+    border: 1px inset var(--dark);
+}
+
+/* Link Transitions */
+a, a:hover, .trans, .fa {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+/** .transSlow { -webkit-transition: all 0.9s ease; -moz-transition: all 0.9s ease; -o-transition: all 0.9s ease; } **/
+
+
+
+.texto-centrado {
+    text-align: center;
+}
+
+.fontWeightW500 {
+    font-weight: 500;
+}
+
+.fontWeightW700 {
+    font-weight: 700;
+}
+
+.fontWeightW800 {
+    font-weight: 800;
+}
+
+.fontWeightW900 {
+    font-weight: 900;
+}
+
+.miColorAzul {
+    color: #124BA0;
+}
+
+.otroColorAzul {
+    color: rgb(22, 64, 127);
+}
+
+
+/*MOVE TEXT*/
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+/* CONTENEDO DE ACCESOS DIRECTOS**/
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.full-img {
+
+
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.contenido-imagen:hover {
+    width: 50%;
+    height: 200px;
+
+    box-shadow: rgba(41, 149, 192, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.contenido-imagen:hover .images-cartas {
+    -webkit-transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    -o-transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    height: 100%;
+    opacity: .3;
+}
+
+
+.card:hover {
+    height: inherit;
+    -webkit-transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    -o-transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 20px 25px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-image {
+    -webkit-transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    -o-transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    transition: .4s all cubic-bezier(.28, .01, .3, 1.02) .2s;
+    height: 100%;
+    opacity: .3;
+}
+
+
+@media(max-width: 539px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 540px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 720px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 990px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .edit-top {
+        margin-top: 0px;
+    }
+}
+
+
+/* CONTENEDO DE ACCESOS DIRECTOS**/

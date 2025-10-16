@@ -1,0 +1,69 @@
+body {
+    background-color: burlywood;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mejor nav */
+nav {
+    text-align: left;
+    width: 90%;
+    margin: 10px auto;
+    background-color: aquamarine;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    padding: 12px 24px;
+    border: 2px solid #5ee6b3;
+}
+
+/* Mejorar lista horizontal */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mejorar items */
+li {
+    padding: 10px 18px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+    font-size: 1.1em;
+}
+
+/* Hover llamativo */
+li:hover {
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(255,140,0,0.18);
+}
+
+/* Estilo para enlaces dentro del nav */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Responsive para nav */
+@media (max-width: 600px) {
+    nav {
+        width: 98%;
+        padding: 8px 6px;
+    }
+    li {
+        display: block;
+        margin: 6px 0;
+    }
+}
