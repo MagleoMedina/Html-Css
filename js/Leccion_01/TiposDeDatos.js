@@ -71,3 +71,8 @@ switch (numeros) {
     default:
         break;
 }
+
+for (let i = 0; i < 5; i++) {
+    SystemOutPrintln(i);
+    
+}
