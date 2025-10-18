@@ -35,10 +35,23 @@ function sumarTodo(){
 console.log(sumarTodo(1,1,1,1,1_000_000));
 
 
-const persona = {
+let persona = {
     nombre : "Juan",
-    apellido : "garcia"
+    apellido : "garcia",
+    nombreCompleto: function(){
+        return this.nombre + " " + this.apellido;
+    }
+};
+
+for(prop in persona){
+    console.log(prop);
+    console.log(persona[prop]);
 }
+
+console.log(persona);
+
+const nameC = () =>{return persona.nombre + " " + persona.apellido};
+console.log(nameC());
 
 function modificar(p){
     p.nombre= "Carlos";
